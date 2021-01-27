@@ -22,9 +22,17 @@ img {
 }
 
 #particles-js {
-  background: linear-gradient(153deg, rgba(52,0,88,1) 0%, rgba(95,9,121,1) 50%, rgba(209,0,255,1) 100%);
+  background: linear-gradient(153deg, rgba(52,0,88,1) 0%, rgb(86,9,121,1) 25%, rgb(132, 0, 255) 50%, rgba(86,9,121,1) 75%, rgba(52,0,88,1) 100%);
   height: 860px;
   width: 100%;
+  background-size: 400% 300%;
+  animation: BgGradient 10s ease infinite;
+}
+
+@keyframes BgGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
 }
 
 #typewriter {
