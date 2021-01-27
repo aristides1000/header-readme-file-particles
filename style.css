@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+#particles-js {
+  background: linear-gradient(153deg, rgba(52,0,88,1) 0%, rgba(95,9,121,1) 50%, rgba(209,0,255,1) 100%);
+  height: 860px;
+  width: 100%;
+}
+
+#typewriter {
+  position: absolute;
+  font-size: 60px;
+  font-family: 'B612', sans-serif;
+  font-weight: 700;
+  width: 800px;
+  margin: 350px 250px;
+  color: white;
+}
